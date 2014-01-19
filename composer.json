@@ -10,11 +10,5 @@
 
     "autoload": {
         "files": ["libs/Smarty.class.php"]
-    },
-    
-    "extra": {
-        "branch-alias": {
-            "dev-master": "3.1.x-dev"
-        }
     }
 }
