@@ -1,8 +1,11 @@
 {
     "name": "faclib/smarty",
+    "type": "library",
     "description": "Smarty is a template engine for PHP.",
+    "homepage": "http://smarty.net",
     "license": "(LGPL-2.1 or GPL-3.0+)",
-    "version": "3.1.16",
+    
+    "version": "dev-master",
 
     "require": {
         "php": ">=5.3.0"
@@ -10,12 +13,5 @@
 
     "autoload": {
         "files": ["libs/Smarty.class.php"]
-    },
-    
-    "extra": {
-        "branch-alias": {
-            "dev-master": "3.1.x-dev"
-        }
     }
-    
 }
