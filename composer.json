@@ -1,5 +1,5 @@
 {
-    "name": "faclib/smarty",
+    "name": "smarty/smarty",
     "type": "library",
     "description": "Smarty is a template engine for PHP.",
     "license": "(LGPL-2.1 or GPL-3.0+)",
