@@ -12,6 +12,6 @@
         }
     },
     "autoload": {
-        "classmap": ["libs/"]
+        "classmap": ["libs/Smarty.class.php"]
     }
 }
