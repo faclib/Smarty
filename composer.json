@@ -5,7 +5,12 @@
     "require": {
         "php": ">=5.3.0"
     },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "3.1.x-dev"
+        }
+    },
     "autoload": {
-        "files": ["libs/Smarty.class.php"]
+        "classmap": ["libs/Smarty.class.php"]
     }
 }
