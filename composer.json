@@ -1,8 +1,10 @@
 {
     "name": "smarty/smarty",
     "type": "library",
-    "description": "Smarty is a template engine for PHP.",
-    "license": "(LGPL-2.1 or GPL-3.0+)",
+    "description": "Smarty - the compiling PHP template engine",
+    "keywords": ["templating"],
+    "homepage": "http://www.smarty.net",
+    "license": "LGPL-3.0",
     "require": {
         "php": ">=5.3.0"
     },
@@ -12,6 +14,9 @@
         }
     },
     "autoload": {
-        "classmap": ["libs/Smarty.class.php"]
+        "classmap": [
+            "libs/Smarty.class.php",
+            "libs/SmartyBC.class.php"
+        ]
     }
 }
